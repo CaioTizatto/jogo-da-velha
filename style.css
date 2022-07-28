@@ -1,0 +1,15 @@
+*{
+    font-family: sans-serif;
+}
+td{
+    padding: 0;
+    width: 150px;
+    height: 150px;
+    border: 1px solid black;
+    font-size: 150px;
+    text-align: center;
+    
+}
+.semborda{
+    border: 0 none ;
+}
