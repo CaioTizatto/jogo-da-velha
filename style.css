@@ -1,5 +1,29 @@
+:root{
+    --cor1:#09BD60;
+    --cor2:#4C8A6A;
+    --cor3:#38F024;
+    --cor4:#E661F2;
+    --cor5:#7E09BD;
+}
 *{
     font-family: sans-serif;
+}
+h1{
+    color: var(--cor1);
+    
+}
+body{
+    background-color: var(--cor2);
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px 400px 0px 400px;
+    background-color: var(--cor4);
+}
+table{
+    margin: 50px;
 }
 td{
     padding: 0;
@@ -7,6 +31,8 @@ td{
     height: 150px;
     border: 1px solid black;
     font-size: 150px;
+    font-weight:900;
     text-align: center;
+
     
 }

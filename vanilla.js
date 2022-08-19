@@ -1,4 +1,4 @@
-var topStart  = document.getElementsByTagName('td')[0]
+var topStart  = document.getElementsByTagName('td')[0] 
 var topCenter = document.getElementsByTagName('td')[1]
 var topEnd = document.getElementsByTagName('td')[2]
 var centerStart = document.getElementsByTagName('td')[3]
@@ -23,38 +23,47 @@ bottomEnd.addEventListener('click', DeclararbottomEnd)
 
 function DeclarartopStart() {
      tableData = "topStart"
+     topStart.removeEventListener('click', DeclarartopStart)
     marcarLetra()
 }
 function DeclarartopCenter() {
      tableData = "topCenter"
+     topCenter.removeEventListener('click', DeclarartopCenter)
     marcarLetra()
 }
 function DeclarartopEnd() {
      tableData = "topEnd"
+     topEnd.removeEventListener('click', DeclarartopEnd)
     marcarLetra()
 }
 function DeclararcenterStart() {
      tableData = "centerStart"
+     centerStart.removeEventListener('click', DeclararcenterStart)
     marcarLetra()
 }
 function DeclararcenterCenter() {
      tableData = "centerCenter"
+     centerCenter.removeEventListener('click', DeclararcenterCenter)
     marcarLetra()
 }
 function DeclararcenterEnd() {
      tableData = "centerEnd"
+     centerEnd.removeEventListener('click', DeclararcenterEnd)
     marcarLetra()
 }
 function DeclararbottomStart() {
      tableData = "bottomStart"
+     bottomStart.removeEventListener('click', DeclararbottomStart)
     marcarLetra()
 }
 function DeclararbottomCenter() {
      tableData = "bottomCenter"
+     bottomCenter.removeEventListener('click', DeclararbottomCenter)
     marcarLetra()
 }
 function DeclararbottomEnd() {
      tableData = "bottomEnd"
+     bottomEnd.removeEventListener('click', DeclararbottomEnd)
     marcarLetra()
 }
 
